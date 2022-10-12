@@ -4,8 +4,8 @@ var lastPosition_x,lastPosition_y;
 color="green";
 width_of_line=3;
 var width=screen.width;
-var newwidth=screen.width-70;
-var newheight=screen.height-300;
+var newwidth=screen.width-10;
+var newheight=screen.height-100;
 if(width<992){
 document.getElementById("myCanvas").width=newwidth;
 document.getElementById("myCanvas").height=newheight;
